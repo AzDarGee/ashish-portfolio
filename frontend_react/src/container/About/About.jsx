@@ -6,13 +6,6 @@ import { images } from '../../constants';
 import './About.scss';
 import { urlFor, client } from '../../client';
 
-// const abouts = [
-//   { title: 'Full Stack Web Development', description: 'I am a great web developer', imgURL: images.about01 },
-//   { title: 'Web Design', description: 'I am a great web developer', imgURL: images.about02 },
-//   { title: 'UI/UX', description: 'I am a great web developer', imgURL: images.about03 },
-//   { title: 'Ruby on Rails', description: 'I have 9+ years of RoR experience', imgURL: images.about04 }
-// ];
-
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
