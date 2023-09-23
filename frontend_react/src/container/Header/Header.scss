@@ -127,6 +127,12 @@
         height: 70px;
     }
 
+    div:nth-child(4) {
+        margin-top: 10px;
+        width: 120px;
+        height: 120px;
+    }
+
     @media screen and (min-width: 2000px) {
         div:nth-child(1) {
             width: 400px;
@@ -141,6 +147,10 @@
         div:nth-child(3) {
             width: 200px;
             height: 200px;
+        }
+        div:nth-child(4) {
+            width: 150px;
+            height: 150px;
         }
     }
 
@@ -165,9 +175,10 @@
     position: relative;
 
     img {
-        width: 100%;
+        width: 90%;
         object-fit: contain;
         z-index: 1;
+        border-radius: 50%;
     }
 
     .overlay_circle {
@@ -181,6 +192,6 @@
     }
 
     @media screen and (max-width: 1200px) {
-        
+        margin: 2rem 0;
     }
 }
