@@ -6,13 +6,19 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
       <div>
-        <BsTwitter />
+        <a href="https://twitter.com/AshishRSCDarji" target='_blank'>
+          <BsTwitter />
+        </a>
       </div>
       <div>
-        <BsInstagram />
+        <a href="https://www.instagram.com/ashish.rsc.darji/" target="_blank">
+          <BsInstagram />
+        </a>
       </div>
       <div>
-        <FaFacebookF />
+        <a href="https://www.facebook.com/ashishdarji/" target="_blank">
+          <FaFacebookF />
+        </a>
       </div>
     </div>
   )
