@@ -2,14 +2,14 @@
 
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
-Now you can do the following things:
-
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
-
 To start the sanity backend server:
 
 Within the backend_sanity directory, run:
 
 `sanity start`
+
+To start the frontend server:
+
+Within the frontend_react directory, run:
+
+`npm start`
